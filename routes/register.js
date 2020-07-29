@@ -47,7 +47,7 @@ router.post('/',[
         token: crypto.randomBytes(3).toString('hex').toUpperCase(),
     });
     //send email
-    await Email.SendEmail(users.email,'Mã kích hoạt tài khoản',`http://localhost:3000/login/${users.id}/${users.token}`,null);
+    await Email.SendEmail(users.email,'Mã kích hoạt tài khoản',`${process.env.BASE_URL}/login/${users.id}/${users.token}`,null);
     req.session.id = users.id;
     res.redirect('/');
 }));
