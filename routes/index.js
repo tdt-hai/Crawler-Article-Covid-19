@@ -11,11 +11,8 @@ router.get('/', asyncHandler (async function(req, res, next) {
   const title = "BTCN07-covid";
   const display = await Article.findall();
   const DeleteNoCov = await Article.DeleteNoCov();
-  var today = new Date();
-  var date = today.getDate()+'-'+(today.getMonth()+1)+'-'+today.getFullYear() ;
-  var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
   var id = await user.finduserbyid(req.session.id);
-  res.render('index', { id,title,display,DeleteNoCov,date,time});
+  res.render('index', { id,title,display,DeleteNoCov});
 }));
 
 //Người dùng lấy thông tin mới nhất
