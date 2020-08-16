@@ -8,7 +8,7 @@
 - Link: [Demo](https://crawler-article-covid-19.herokuapp.com/)
 
 ## Set up
-    -  `Clone project: https://crawler-article-covid-19.herokuapp.com/`
+    -  `Clone project`: [Download](https://github.com/tdt-hai/Crawler-Article-Covid-19.git)
 - Run: 
     - `B1: clone project ` 
     - `B2: npm install`
