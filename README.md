@@ -1,5 +1,5 @@
 # Crawler-Article-Covid-19
-![Thumbnail](https://i.imgur.com/oMO5WVY.png)
+![Thumbnail](https://i.imgur.com/Ji7Qw4r.png)
 -<h1> After sendMail </h1></br>
 ![Thumbnail](https://i.imgur.com/KbtqwcM.png)
 
